@@ -5,6 +5,8 @@
 // updates by Ge Wang and Matt Wright (2021)
 public class Scale
 {
+    <<< "Scale instantiated", this >>>;
+    
     // minor scales
     [0, 2, 3, 5, 7, 8, 10] @=> int min[]; // minor mode
     [0, 2, 3, 5, 7, 8, 11] @=> int har[]; // harmonic minor

@@ -1,4 +1,4 @@
-Scale sc; TimeGrid tg;
+Scale sc; TimeGrid tg; Settings st;
 
 Shakers shaker => dac; 
 
@@ -17,11 +17,11 @@ while( true ) { //infinite loop
     //10 => int a;
     sc.scale( a+bass[m], sc.maj ) => int note; //select the bassnote
   
-  play(shaker,  "shaker",    note,   1,      1);
-  play(shaker,  "shaker",    note,   1,      0.5);
-  play(shaker,  "shaker",    note,   1,      1);
-  play(shaker,  "shaker",    0,      0.6,    0.5);
-  play(shaker,  "shaker",    note,   0.3,    0.5);
+  play(shaker,  "shaker",    note,   1,      1      );
+  play(shaker,  "shaker",    note,   1,      0.5    );
+  play(shaker,  "shaker",    note,   1,      1      );
+  play(shaker,  "shaker",    0,      0.6,    0.5    );
+  play(shaker,  "shaker",    note,   0.3,    0.5    );
 }
 
 

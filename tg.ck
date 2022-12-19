@@ -3,6 +3,8 @@
 // author: Graham Coleman
 public class TimeGrid
 {
+    <<< "TimeGrid instantiated", this >>>;
+    
     dur beat;
     dur meas;
     dur sect;
