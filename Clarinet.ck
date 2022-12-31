@@ -1,6 +1,6 @@
 Scale sc; TimeGrid tg; 
 
-Shakers shaker => dac; 
+Clarinet clarinet => dac; 
 
 tg.set( 1::minute/60/2, 4, 4 );
 
@@ -17,11 +17,11 @@ while( true ) { //infinite loop
     //10 => int a;
     sc.scale( a+bass[m], sc.maj ) => int note; //select the bassnote
   
-  play(shaker,  "shaker",    note,   1,      1      );
-  play(shaker,  "shaker",    note,   1,      0.5    );
-  play(shaker,  "shaker",    note,   1,      1      );
-  play(shaker,  "shaker",    0,      0.75,    0.5    );
-  play(shaker,  "shaker",    note,   0.25,    0.5    );
+  play(clarinet,  "clarinet",    note,          1,      0.2    );
+  play(clarinet,  "clarinet",    note,          1,      0.1    );
+  play(clarinet,  "clarinet",    note,          1,      0.2    );
+  play(clarinet,  "clarinet",    note+7,        0.75,    0.1    );
+  play(clarinet,  "clarinet",    note,          0.25,    0.1    );
 }
 
 
