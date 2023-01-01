@@ -1,6 +1,6 @@
 # orchestra
  
-orchestra is a chuck-based group of musician, improvising over a small beat.
+orchestra is a chuck-based group of musician, improvising over a simple beat.
 
 see and listen to it as a fun little programming exercise.
 
