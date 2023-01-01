@@ -1,6 +1,6 @@
 # orchestra
  
-orchestra is a chuck-based group of musician, improvising over a small beat.
+orchestra is a chuck-based group of musician, improvising over a simple beat.
 
 see and listen to it as a fun little programming exercise.
 
@@ -12,8 +12,8 @@ do not expect good music.
 ## Usage
 1. Load files from repository
 2. Start Virtual Machine with Alt+. (or menu ChucK -> Start Virtual Machine)
-3. Add Shreds of scale.ck and tg.ck
-4. Start and Stop Shreds of all other files, as you like. Have fun listening
+3. Add Shreds of Scale.ck, Timegrid.ck, and Settings.ck
+4. Start and stop Shreds of all other files, as you like. Have fun listening.
 
 # Credits
 All praise is due https://chuck.cs.princeton.edu/
