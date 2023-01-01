@@ -13,7 +13,7 @@ do not expect good music.
 1. Load files from repository
 2. Start Virtual Machine with Alt+. (or menu ChucK -> Start Virtual Machine)
 3. Add Shreds of Scale.ck, Timegrid.ck, and Settings.ck
-4. Start and stop Shreds of all other files, as you like. Have fun listening-
+4. Start and stop Shreds of all other files, as you like. Have fun listening.
 
 # Credits
 All praise is due https://chuck.cs.princeton.edu/
