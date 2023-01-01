@@ -6,8 +6,7 @@ public class Settings {
     timegrid.sync();
     
     Scale scale;
-    
-    
+        
     fun void play(StkInstrument instrument, string identifier, int note, float duration, float velocity){
         Std.mtof( 2*12 + 7 + note ) => instrument.freq;
         if (note == 0) {}
@@ -17,7 +16,7 @@ public class Settings {
         duration::timegrid.beat => now;
             
         //tg.beat => now;
-         <<< "Measure: ", timegrid.nmeas, ", Beat: ", timegrid.nbeat, ", Instrument: ", identifier, ", Note: ", note, ", Duration: ", duration::timegrid.beat >>>;
+         <<< "Now: ", now, ", Instrument: ", identifier, ", Note: ", note, ", Duration: ", duration::timegrid.beat >>>;
     }
     
     
